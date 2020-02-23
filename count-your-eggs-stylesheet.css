@@ -6,10 +6,12 @@ body {
 	background-image: url("tallybackground4.png");
 	background-repeat: repeat;
 	background-attachment: fixed;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5em;
 	text-align: center;
 }
+
+
 
 #titlelogo {
 	margin: 10px 0 15px;
@@ -38,16 +40,8 @@ a:hover {
 
 nav a {
 	border-radius: 10px;
-}
-
-.footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: red;
-	color: white;
-	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.1em;
 }
 
 hr.rounded {
@@ -69,6 +63,40 @@ hr.rounded {
 	text-decoration: none;
 }
 
+label {
+    width: 150px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.field {
+    width: 400px;
+    padding: 5px 2px;
+    border: 1px solid #979797;
+    border-radius: 5px;
+}
+
+#msglabel {
+	vertical-align: top;
+	margin-top: 6px;
+}
+
+.field:focus {
+        border: 2px solid #669900;
+    }
+
+#submit {
+	color: #eef0f0;
+	font-weight: bold;
+	background-color: #4b7000;
+}
+
+#reset {
+	color: #F2F3F3;
+	background-color: #485151;
+}
+
 ul {
 	list-style-type: none;
+	padding: 0;
 }
