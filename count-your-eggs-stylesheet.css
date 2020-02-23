@@ -5,6 +5,7 @@ body {
 	background: #eef0f0;
 	background-image: url("tallybackground4.png");
 	background-repeat: repeat;
+	background-attachment: fixed;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.5em;
 	text-align: center;
