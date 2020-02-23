@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #eef0f0;
+	background-image: url("tallybackground4.png");
+	background-repeat: repeat;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#titlelogo {
+	margin: 10px 0 15px;
+}
+
+.navbar {
+	background-color: rgba(255,117,34,0.60);
+	position: sticky;
+	top: 0;
+	z-index: 3;
+}
+
+#navlogo {
+	margin-top: -7px;
+}
+
+a {
+	color: #003300;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #B44400;
+	text-decoration: underline;
+}
+
+nav a {
+	border-radius: 10px;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
+}
+
+hr.rounded {
+	border-top: 8px solid #bbb;
+	border-radius: 5px;
+}
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}
+
+.fa:hover {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
