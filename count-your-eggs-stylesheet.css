@@ -44,6 +44,47 @@ nav a {
 	font-size: 1.1em;
 }
 
+#tagline {
+	font-size: 1.3em;
+}
+
+#tag1 {
+	text-align: left;
+}
+
+#tag2 {
+	text-align: right;
+}
+
+blockquote {
+	position: relative;
+	font-family: "Montserrat", sans-serif;
+	font-size: 2em;
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: -10px;
+}
+
+blockquote:before {
+  content: '\201C';
+  position: absolute;
+  top: -0.3em;
+  left: -0.2em;
+  color: rgba(255,117,34,0.20);
+  font-size: 10em;
+  z-index: 0;
+}
+
+blockquote:after {
+  content: '\201D';
+  position: absolute;
+  top: -0.3em;
+  right: 0.2em;
+  color: rgba(255,117,34,0.20);
+  font-size: 10em;
+  z-index: 0;
+}
+
 hr.rounded {
 	border-top: 8px solid #bbb;
 	border-radius: 5px;
@@ -63,8 +104,14 @@ hr.rounded {
 	text-decoration: none;
 }
 
+@media (min-width: 1200px){
+	#connect p {
+		text-align: left;
+	}
+}
+
 label {
-    width: 150px;
+    width: 130px;
     text-align: right;
     margin-right: 20px;
 }
@@ -84,7 +131,7 @@ label {
 .field:focus {
         border: 2px solid #669900;
     }
-
+/*
 #submit {
 	color: #eef0f0;
 	font-weight: bold;
@@ -95,7 +142,7 @@ label {
 	color: #F2F3F3;
 	background-color: #485151;
 }
-
+*/
 ul {
 	list-style-type: none;
 	padding: 0;
