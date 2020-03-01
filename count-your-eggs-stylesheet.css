@@ -3,12 +3,12 @@
 
 body {
 	background: #eef0f0;
-	background-image: url("tallybackground4.png");
-	background-repeat: repeat;
+	background-image: linear-gradient(#F5F6F6, #CDD5D5);
 	background-attachment: fixed;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5em;
 	text-align: center;
+	color: #012001;
 }
 
 
