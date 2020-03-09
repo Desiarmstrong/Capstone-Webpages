@@ -1,12 +1,13 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-color: gray;
+	background: url(image4.jpg);
+	background-size: cover;
 	font-family: san-serif;
 }
 .login-box{
-	width: 350px;
-	height: 460px;
+	width: 320px;
+	height: 420px;
 	background: rgba(0, 0, 0, 0.5);
 	color: #fff;
 	top: 50%;

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp/Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Sign Up</button>
+                <button type="button" class="toggle-btn" onclick="signup()">Log In</button>
+            </div>
+            <form id="signup" class="input-group">
+                <input type="text" class="input-field" placeholder="User ID" required>
+                <input type="text" class="input-field" placeholder="Email ID" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <button type="submit" class="submit-btn">Sign Up</button>
+            </form>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User ID" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <button type="submit" class="submit-btn">Log In</button>
+            </form>
+            
+        </div>
+    </div>
+    <script>
+    var x = document.getElementById("signup");
+    var y = document.getElementById("login");
+    var z = document.getElementById("btn");
+    function signup(){
+        x.style.left = "-400px";
+        y.style.left = "50px";
+        z.style.left = "110px";
+    }
+    function login(){
+        x.style.left = "50px";
+        y.style.left = "450px";
+        z.style.left = "0";
+    }
+    </script>
+</body>
+</html>
