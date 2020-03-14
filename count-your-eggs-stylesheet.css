@@ -1,10 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+
 body {
 	background: #eef0f0;
-	background-image: linear-gradient(#F5F6F6, #CDD5D5);
-	background-attachment: fixed;
+	/*background-image: linear-gradient(#F5F6F6, #CDD5D5);
+	background-attachment: fixed; */
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5em;
 	text-align: center;
@@ -79,7 +80,11 @@ button.navbar-toggle:hover {
 
 #tagline {
 	font-size: 1.3em;
+	width: 50%;
+	margin: 10px auto;
 }
+
+
 
 #tag1 {
 	text-align: left;
@@ -103,9 +108,9 @@ blockquote:before {
   content: '\201C';
   position: absolute;
   top: -0.3em;
-  left: -0.2em;
+  left: -0.1em;
   color: rgba(255,117,34,0.20);
-  font-size: 10em;
+  font-size: 5em;
   z-index: 0;
 }
 
@@ -115,7 +120,7 @@ blockquote:after {
   top: -0.3em;
   right: 0.2em;
   color: rgba(255,117,34,0.20);
-  font-size: 10em;
+  font-size: 5em;
   z-index: 0;
 }
 
@@ -136,12 +141,6 @@ hr.rounded {
 
 .fa:hover {
 	text-decoration: none;
-}
-
-@media (min-width: 1200px){
-	#connect p {
-		text-align: left;
-	}
 }
 
 label {
@@ -179,4 +178,16 @@ label {
 ul {
 	list-style-type: none;
 	padding: 0;
+}
+
+@media (min-width: 1200px){
+	#connect p {
+		text-align: left;
+	}
+}
+
+@media only screen and (max-width: 767px){
+  #tagline {
+	width: 90%;
+  }
 }
