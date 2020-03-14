@@ -31,12 +31,7 @@ body, html {
   text-align: center;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#titlelogo {
-	margin: 10px 0 15px;
+  transform: translate(0, -50%);
 }
 
 .navbar {
@@ -44,6 +39,7 @@ body, html {
 	position: sticky;
 	top: 0;
 	z-index: 3;
+	margin-bottom: 0;
 }
 
 #navlogo {
@@ -84,8 +80,6 @@ button.navbar-toggle:hover {
 	margin: 10px auto;
 }
 
-
-
 #tag1 {
 	text-align: left;
 }
@@ -93,6 +87,7 @@ button.navbar-toggle:hover {
 #tag2 {
 	text-align: right;
 }
+
 
 blockquote {
 	position: relative;
@@ -189,5 +184,14 @@ ul {
 @media only screen and (max-width: 767px){
   #tagline {
 	width: 90%;
+  }
+  picture img {
+	width: 100%;
+  }
+  .hero-image {
+	height: 100vh;
+  }
+  .hero-text picture img {
+	padding:40px;
   }
 }
