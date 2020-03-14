@@ -15,7 +15,10 @@
 <body>
 	<div class="hero-image">
 	  <div class="hero-text">
-		<img src="cye-title-img4.png" id="titlelogo" width="100%" alt="Count Your Eggs Inventory Management" >
+		<picture>
+		  <source media="(max-width: 767px)" srcset="cye-title-img-mobile.png">
+		  <img src="cye-title-img4.png" id="titlelogo" width="80%" alt="Count Your Eggs Inventory Management" >
+		</picture>
 	  </div>
 	</div>
 	<nav class="navbar">
@@ -40,23 +43,30 @@
 		  </ul>
 			</div></div>
 	</nav>
-	<div id="tagline">
-		<p id="tag1">Never make your servers say</p>
-	  <blockquote>I'm sorry, we're out of the quiche...</blockquote>
-	  <p id="tag2">again!</p>
-	</div>
-	<div class="container-fluid">
+	  <div class="container-fluid odd-div">
+		<div id="tagline">
+			<p id="tag1">Never make your servers say</p>
+		  <blockquote>I'm sorry, we're out of the quiche...</blockquote>
+		  <p id="tag2">again!</p>
+		</div>
+	  </div>
+	<div class="container-fluid even-div">
 		<div class="row">
 		<div class="col-sm-12">
-			<img src="image-placeholder-png-2.png" alt="eggs" width="50%">
+		  <picture>
+			 <source media="(max-width: 767px)" srcset="home-image-mobile.jpg">
+			 <img src="home-image.jpg" alt="An inviting bar well-stocked with ingredients and garnishes" width="80%">
+		  </picture>
 		</div>
-		<div class="col-lg-6 col-lg-offset-3">
+		<div class="col-lg-8 col-lg-offset-2">
 			<p>Count Your Eggs is an easy-to-use inventory management system designed specifically for the fast-paced world of your restaurant's back-of-house. CYE's specialized software monitors your inventory levels, anticipates spoilage, tracks trends in ingredient consumption, and generates purchase orders. By implementing CYE's comprehensive inventory tracking and categorization system, you will increase efficiency, reduce stress, and improve morale in the kitchen!</p>
 			<p>Keep your shelves and freezers stocked, your customers and your employees happy, and your restaurant packed with Count Your Eggs Inventory Management!</p>
 			<button type="button" class="btn btn-success">Get a Quote</button>
 		</div>
 		</div>
 	</div>
+	
+	<div class="container-fluid odd-div"><!-- testimonials will go here --></div>
 	<br>
 	<div class="container-fluid">
 		<div class="row">		
