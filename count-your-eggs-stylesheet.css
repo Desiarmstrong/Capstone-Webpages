@@ -3,7 +3,7 @@
 
 
 body {
-	background: #eef0f0;
+
 	/*background-image: linear-gradient(#F5F6F6, #CDD5D5);
 	background-attachment: fixed; */
 	font-family: 'Open Sans', sans-serif;
@@ -57,9 +57,13 @@ a:hover {
 }
 
 nav a {
-	border-radius: 10px;
+	border-radius: 60px;
 	font-family: "Montserrat", sans-serif;
 	font-size: 1.1em;
+}
+
+nav a:hover, .nav>li>a:hover {
+	background-color: #F2FAE1;
 }
 
 .navbar-toggle .icon-bar {
@@ -67,17 +71,35 @@ nav a {
 }
 
 button.navbar-toggle {
-	border-radius: 10px;
+	border-radius: 60px;
 }
 
 button.navbar-toggle:hover {
-	background-color:#f5f5f5
+	background-color:#F2FAE1
+}
+
+.odd-div {
+	padding: 20px 0;
+	background: #F4F5F5;
+}
+
+.odd-div:first-of-type {
+	padding-top: 40px;
+}
+
+.even-div {
+	padding: 20px 0;
+	background: #CFD0D1;
+}
+
+.even-div:last-of-type {
+	padding-bottom: 40px;
 }
 
 #tagline {
 	font-size: 1.3em;
 	width: 50%;
-	margin: 10px auto;
+	margin: 0px auto;
 }
 
 #tag1 {
@@ -88,15 +110,15 @@ button.navbar-toggle:hover {
 	text-align: right;
 }
 
+#tagline blockquote,pre{border:0px}
 
 blockquote {
 	position: relative;
-
 	font-family: "Montserrat", sans-serif;
 	font-size: 2em;
 	font-style: italic;
 	font-weight: bold;
-	margin-bottom: -10px;
+	margin-bottom: -5px;
 }
 
 blockquote:before {
@@ -105,7 +127,7 @@ blockquote:before {
   top: -0.3em;
   left: -0.1em;
   color: rgba(255,117,34,0.20);
-  font-size: 5em;
+  font-size: 6em;
   z-index: 0;
 }
 
@@ -115,7 +137,7 @@ blockquote:after {
   top: -0.3em;
   right: 0.2em;
   color: rgba(255,117,34,0.20);
-  font-size: 5em;
+  font-size: 6em;
   z-index: 0;
 }
 
