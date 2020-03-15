@@ -141,6 +141,10 @@ blockquote:after {
   z-index: 0;
 }
 
+#hometext {
+	padding-top: 20px;
+}
+
 hr.rounded {
 	border-top: 8px solid #bbb;
 	border-radius: 5px;
@@ -203,7 +207,7 @@ ul {
 	}
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 766px){
   #tagline {
 	width: 90%;
   }
@@ -216,4 +220,23 @@ ul {
   .hero-text picture img {
 	padding:40px;
   }
+}
+
+@media only screen and (min-width: 767px) {
+	.left-image {
+		float: left;
+		padding-left: 50px;
+	}
+	
+	.right-image {
+		float: right;
+		padding-right: 50px;
+	}
+
+	.pagetext {
+		height: 500px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
 }
