@@ -3,19 +3,12 @@
 
 
 body {
-
-	/*background-image: linear-gradient(#F5F6F6, #CDD5D5);
-	background-attachment: fixed; */
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.5em;
 	text-align: center;
 	color: #012001;
 }
-/*
-body, html {
-    height: 95%;
-}
-*/
+
 /* The hero image */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero-image.jpg");
@@ -34,6 +27,18 @@ body, html {
   transform: translate(0, -50%);
 }
 
+a {
+	color: #003300;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #B44400;
+	text-decoration: underline;
+}
+
+/*navbar styles*/
+
 .navbar {
 	background-color: rgba(255,117,34,0.60);
 	position: sticky;
@@ -44,16 +49,6 @@ body, html {
 
 #navlogo {
 	margin-top: -7px;
-}
-
-a {
-	color: #003300;
-	font-weight: bold;
-}
-
-a:hover {
-	color: #B44400;
-	text-decoration: underline;
 }
 
 nav a {
@@ -77,6 +72,8 @@ button.navbar-toggle {
 button.navbar-toggle:hover {
 	background-color:#F2FAE1
 }
+
+/*styles for grey-and-white sections of page*/
 
 .odd-div {
 	padding: 20px 0;
@@ -112,7 +109,7 @@ button.navbar-toggle:hover {
 
 #tagline blockquote,pre{border:0px}
 
-blockquote {
+#tagline blockquote {
 	position: relative;
 	font-family: "Montserrat", sans-serif;
 	font-size: 2em;
@@ -148,6 +145,20 @@ blockquote:after {
 hr.rounded {
 	border-top: 8px solid #bbb;
 	border-radius: 5px;
+}
+
+footer {
+	background-color: #012001;
+	color: #eef0f0;
+}
+
+footer a {
+	color: #FFE3C7;
+	font-weight: normal;
+}
+
+footer a:hover {
+	color: #FF8A14;
 }
 
 .fa {
