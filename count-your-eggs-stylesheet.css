@@ -57,6 +57,14 @@ nav a {
 	font-size: 1.1em;
 }
 
+.active {
+	font-size: 1.1em;
+}
+
+.active a {
+	background-color: hsla(79,71%,93%,0.40);
+}
+
 nav a:hover, .nav>li>a:hover {
 	background-color: #F2FAE1;
 }
