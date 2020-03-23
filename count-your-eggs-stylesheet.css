@@ -73,6 +73,15 @@ button.navbar-toggle:hover {
 	background-color:#F2FAE1
 }
 
+.parallax {
+  background-image: url("home-image-mobile.jpg");
+  min-height: 400px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*styles for grey-and-white sections of page*/
 
 .odd-div {
