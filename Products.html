@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Count Your Eggs Inventory Management</title>
@@ -13,12 +13,25 @@
 </head>
 	
 <body>
-	<img src="cye-title-img3.png"  id="titlelogo" width="50%" alt="Count Your Eggs Inventory Management">
+	<div class="hero-image">
+	  <div class="hero-text">
+		<picture>
+		  <source media="(max-width: 767px)" srcset="https://github.com/Desiarmstrong/Capstone-Webpages/blob/master/cye-title-img-mobile.png?raw=true">
+		  <img src="https://github.com/Desiarmstrong/Capstone-Webpages/blob/master/cye-title-img.png?raw=true" id="titlelogo" width="80%" alt="Count Your Eggs Inventory Management" >
+		</picture>
+	  </div>
+	</div>
 	<nav class="navbar">
 		<div class="container-fluid">
 		  <div class="navbar-header">
-			<a class="navbar-brand pull-left" href="#"><img src="cye-initials-small.png" id="navlogo" alt="Count Your Eggs"></a>
-			</div>
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>                        
+		    </button>
+			<a class="navbar-brand" href="#"><img src="https://github.com/Desiarmstrong/Capstone-Webpages/blob/master/cye-initials.png?raw=true" id="navlogo" alt="Count Your Eggs" width="115px"></a>
+		  </div>
+		  <div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
 			<li class="active"><a href="Index.html">Home</a></li>
 			<li><a href="Products.html">Products</a></li>
@@ -26,73 +39,49 @@
 			<li><a href="Connect.html">Connect</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-			<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-			<li><a href="login form.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+			<li><a href="login.html"><span class="glyphicon glyphicon-user"></span>Login/Register</a></li>
 		  </ul>
-		</div>
+			</div></div>
 	</nav>
-	<div class="container-fluid" id="tagline">
-	  <div class="row">
-		<div class="col-lg-4 col-lg-offset-4"><p id="tag1">Never make your servers say</p></div>
-	  </div>
-	  <div class="row">
-		<div class="col-lg-4 col-lg-offset-4"><blockquote>I'm sorry, we're out of the quiche...</blockquote></div>
-	  </div>
-	  <div class="row">
-		<div class="col-lg-4 col-lg-offset-4"><p id="tag2">again!</p></div>
-	  </div>
-	</div>
-	<div class="container-fluid">
-		<div class="row">
-		<div class="col-sm-12">
-			<img src="image-placeholder-png-2.png" alt="eggs" width="50%">
+	  <div class="container-fluid odd-div">
+		<div id="tagline">
+			<p id="tag1">Never make your servers say</p>
+		  <blockquote>I'm sorry, we're out of the quiche...</blockquote>
+		  <p id="tag2">again!</p>
 		</div>
-		<div class="col-lg-6 col-lg-offset-3">
+	  </div>
+	<div class="container-fluid even-div">
+		<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+		  <div class="parallax" ></div>
+		</div>
+		<div class="col-md-8 col-md-offset-2" id="hometext">
 			<p>Count Your Eggs is an easy-to-use inventory management system designed specifically for the fast-paced world of your restaurant's back-of-house. CYE's specialized software monitors your inventory levels, anticipates spoilage, tracks trends in ingredient consumption, and generates purchase orders. By implementing CYE's comprehensive inventory tracking and categorization system, you will increase efficiency, reduce stress, and improve morale in the kitchen!</p>
 			<p>Keep your shelves and freezers stocked, your customers and your employees happy, and your restaurant packed with Count Your Eggs Inventory Management!</p>
 			<button type="button" class="btn btn-success">Get a Quote</button>
 		</div>
 		</div>
+	</div>
 	
-		 
-			<div class="container-fluid even-div">
-				<div class="row">
-				<div class="col-md-10 col-md-offset-1">
-				  <div class="parallax" ></div>
-				</div>
-				 <div class="">
-			  		<h1>Pricing</h1>
-			  		<h2 class="margin-bottom">Whether you run a coffee shop, all-day cafe, open-air biergarten, greasy spoon, or farm-to-table eatery, CYE can provide your inventory management needs.</h2>
+	<div class="container-fluid odd-div"><!-- testimonials will go here --></div>
 
-					 <button type="button" class="btn btn-success">Request a Quote</button>
-
-					</div>
-				</div>
-			</div>
+	<div class="even-div clearfix">
+		<img src="https://github.com/Desiarmstrong/Capstone-Webpages/blob/master/image-placeholder-png-2.png?raw=true" alt="eggs" class="left-image" height="500px">
+		<div class="pagetext"><h5><a href="">Products</a></h5>
+		<p>Blurb...</p></div>
+	</div>
+	<div class="odd-div clearfix">
+		<img src="https://github.com/Desiarmstrong/Capstone-Webpages/blob/master/image-placeholder-png-2.png?raw=true" alt="eggs" class="right-image" height="500px">
+		<div class="pagetext"><h5><a href="">About</a></h5>
+		<p>Blurb...</p></div>
+	</div>
+	<div class="even-div clearfix">
+		<img src="https://github.com/Desiarmstrong/Capstone-Webpages/blob/master/image-placeholder-png-2.png?raw=true" alt="eggs" class="left-image" height="500px">
+		<div class="pagetext"><h5><a href="">Connect</a></h5>
+		<p>Blurb...</p></div>
+	</div>
+		
 	
-	<div class="container-fluid odd-div"><!-- testimonials will go here -->
-	</div>
-	</div>
-	<br>
-	<div class="container-fluid">
-		<div class="row">		
-			<div class="col-sm-4" >
-				<img src="image-placeholder-png-2.png" alt="eggs" width="90%" ><br>
-				<h5><a href="">Products</a></h5>
-				<p>Blurb...</p>
-			</div>
-			<div class="col-sm-4" >
-				<img src="image-placeholder-png-2.png" alt="eggs" width="90%" ><br>
-				<h5><a href="">About</a></h5>
-				<p>Blurb...</p>
-			</div>
-			<div class="col-sm-4" >
-				<img src="image-placeholder-png-2.png" alt="eggs" width="90%" ><br>
-				<h5><a href="">Connect</a></h5>
-				<p>Blurb...</p>
-			</div>
-		</div>
-	</div>
 			
 
 
@@ -103,8 +92,8 @@
 	<div class="container-fluid">
 		<div class="row">
 		<div class="col-sm-12">
-			<a href="#" class="fa fa-facebook"></a>
-			<a href="#" class="fa fa-twitter"></a>
+			<a href="https://www.facebook.com/Count-Your-Eggs-Inventory-Management-107284634211664/" class="fa fa-facebook"></a>
+			<a href="https://twitter.com/counteggs" class="fa fa-twitter"></a>
 			<a href="#" class="fa fa-youtube"></a>
 			<a href="#" class="fa fa-instagram"></a>
 			
