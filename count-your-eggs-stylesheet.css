@@ -98,7 +98,7 @@ button.navbar-toggle:hover {
 	border: none;
 	border-radius: 8px;
 	font-size: 1.25em;
-	color: #012001;
+	color: rgba(180,68,0,0.74);
 	min-height: 268px;
 }
 .bubble div {
@@ -112,7 +112,7 @@ button.navbar-toggle:hover {
 }
 .bubble cite {
 	font-size: 1.25em;
-	color:rgba(180,68,0,0.74);
+	color:#016501;
 	float: left;
 	margin-left: 148px;
 }
@@ -127,7 +127,7 @@ button.navbar-toggle:hover {
 
 .odd-div {
 	padding: 20px 0;
-	background: #F4F5F5;
+	background: #FCFCFC;
 }
 
 .odd-div:first-of-type {
