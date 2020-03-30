@@ -11,7 +11,7 @@ body {
 
 /* The hero image */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero-image.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/Desiarmstrong/Capstone-Webpages/blob/master/hero-image-2.jpg?raw=true");
   height: 60vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,6 +90,39 @@ button.navbar-toggle:hover {
   background-size: cover;
 }
 
+.bubble blockquote {
+	margin: 10px 150px 0;
+	background: #fff;
+	padding: 60px;
+	position: relative;
+	border: none;
+	border-radius: 8px;
+	font-size: 1.25em;
+	color: #012001;
+	min-height: 268px;
+}
+.bubble div {
+	width: 0;
+	height: 0;
+	border-right: 0 solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+	margin: 0 0 0 250px;
+	margin-bottom: 10px;
+}
+.bubble cite {
+	font-size: 1.25em;
+	color:rgba(180,68,0,0.74);
+	float: left;
+	margin-left: 148px;
+}
+
+.carousel-control {
+	background-image: none !important;
+}
+
+
+
 /*styles for grey-and-white sections of page*/
 
 .odd-div {
@@ -124,7 +157,7 @@ button.navbar-toggle:hover {
 	text-align: right;
 }
 
-#tagline blockquote,pre{border:0px}
+blockquote,pre{border:0px}
 
 #tagline blockquote {
 	position: relative;
@@ -135,7 +168,7 @@ button.navbar-toggle:hover {
 	margin-bottom: -5px;
 }
 
-blockquote:before {
+#tagline blockquote:before {
   content: '\201C';
   position: absolute;
   top: -0.3em;
@@ -145,7 +178,7 @@ blockquote:before {
   z-index: 0;
 }
 
-blockquote:after {
+#tagline blockquote:after {
   content: '\201D';
   position: absolute;
   top: -0.3em;
@@ -157,11 +190,6 @@ blockquote:after {
 
 #hometext {
 	padding-top: 20px;
-}
-
-hr.rounded {
-	border-top: 8px solid #bbb;
-	border-radius: 5px;
 }
 
 footer {
