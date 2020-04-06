@@ -6,7 +6,7 @@
 .hero{
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("login-background.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/Desiarmstrong/Capstone-Webpages/blob/master/login-background.png?raw=true");
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
