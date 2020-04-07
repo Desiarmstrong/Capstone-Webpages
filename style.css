@@ -106,8 +106,8 @@ span{
 	text-align: center;
 }
 .section .pricing {
-  background: #007bff;
-  background: linear-gradient(to right, #0062E6, #33AEFF);
+  background: coral;
+  background: linear-gradient(to right, #F5F5F5, #F8F8F8);
 }
 
 .pricing .card {
