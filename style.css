@@ -104,8 +104,5 @@ span{
 .righteous { font-family: Righteous;}
 .constructionp { 
 	font-family: Montserrat;
-	position: relative;
-	width: 80%;
-	padding: 10px 0;
-	margin: 5px 0;
+	text-align: center
 }
