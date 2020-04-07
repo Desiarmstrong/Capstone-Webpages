@@ -15,22 +15,23 @@
 		<div class="constructionp"><p> Sorry, but it isn't the time for me to come out.</p> </div>	
 		<div class="initials"><img src="Egg.png" alt="CYE" width="150px" ></div> 
 		<div class="constructionp"><h4>This page is under construction<h4></div>
+	
+		<button onclick="goBack()">Go Back</button>
+		<p>Notice that clicking on the Back button here will not result in any action, because there is no previous URL in the history list.</p>
+		<script>
+			function goBack() {
+			window.history.back();
+			}
+		</script>
+			
 	<!--
 		<div class="button-box"> 
 		<div id="btn"></div>
                		<button type="button" class="toggle-btn" onclick="login()">Sign Up</button>
                 	<button type="button" class="toggle-btn" onclick="signup()">Log In</button>
             		</div>
-	<button onclick="goBack()">Go Back</button>
-
-<p>Notice that clicking on the Back button here will not result in any action, because there is no previous URL in the history list.</p>
-
-<script>
-function goBack() {
-  window.history.back();
-}
-</script>
--->
+	
+	-->
         <!--
 		<form id="signup" class="input-group">
 			<input type="text" class="input-field" placeholder="User ID" required>
