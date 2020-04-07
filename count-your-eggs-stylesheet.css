@@ -11,8 +11,8 @@ body {
 
 /* The hero image */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/Desiarmstrong/Capstone-Webpages/blob/master/hero-image-2.jpg?raw=true");
-  height: 60vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("https://github.com/Desiarmstrong/Capstone-Webpages/blob/master/hero-image-2.jpg?raw=true");
+  height: 30vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,6 +45,7 @@ a:hover {
 	top: 0;
 	z-index: 3;
 	margin-bottom: 0;
+	border-radius: 0;
 }
 
 #navlogo {
@@ -83,11 +84,13 @@ button.navbar-toggle:hover {
 
 .parallax {
   background-image: url("home-image-mobile.jpg");
-  min-height: 400px; 
+  min-height: 600px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 80vw;
+  margin: 0 auto;
 }
 
 .bubble blockquote {
@@ -147,12 +150,6 @@ img {
 	border-radius: 5px;
 }
 
-#tagline {
-	font-size: 1.3em;
-	width: 50%;
-	margin: 0px auto;
-}
-
 #tag1 {
 	text-align: left;
 }
@@ -171,12 +168,14 @@ blockquote {
 }
 
 #tagline {
-	padding: 40px 0 80px;
-	width: 850px;
+	padding: 40px 0 40px;
+	width: 750px;
+	font-size: 1.3em;
+	margin: 0px auto;
 }
 
 #tagline blockquote {
-	font-size: 2em;
+	font-size: 1.8em;
 	margin-bottom: 10px;
 }
 
@@ -204,8 +203,19 @@ blockquote:after {
   z-index: 0;
 }
 
+#titlelogo{
+	margin: 0 auto;
+}
+
 #hometext {
-	padding-top: 20px;
+	font-family: "Montserrat", sans-serif;
+	margin: 10vh auto;
+	color: white;
+	width: 50%;
+	text-shadow: -1px 1px 0 #012001,
+				  1px 1px 0 #012001,
+				 1px -1px 0 #012001,
+				-1px -1px 0 #012001;
 }
 
 .pagetext {
@@ -216,7 +226,7 @@ blockquote:after {
 footer {
 	background-color: #012001;
 	color: #eef0f0;
-	padding-top: 30px;
+	padding: 35px;
 }
 
 footer a {
@@ -279,6 +289,22 @@ ul {
 	padding: 0;
 }
 
+@media (min-width: 1800px) {
+	.pagetext {
+		margin: 0 350px;
+	}
+	.left-image {
+		float: left;
+		margin-left: 100px;
+		padding-right: 150px;
+	}
+	.right-image {
+		float: right;
+		margin-right: 100px;
+		padding-left: 150px;
+	}
+}
+
 @media (min-width: 1200px){
 	#connect p {
 		text-align: left;
@@ -310,17 +336,76 @@ ul {
 	
 }
 
+@media (min-width: 767px) {
+	.left-image, .right-image {
+		height: 500px;
+	}
+}
+
 @media only screen and (max-width: 766px){
-  #tagline {
-	width: 90%;
-  }
-  picture img {
-	width: 100%;
-  }
-  .hero-image {
-	height: 100vh;
-  }
-  .hero-text picture img {
-	padding:40px;
-  }
+	#tagline {
+		width: 90%;
+	}
+	picture img {
+		width: 100%;
+	}
+	.hero-image {
+		height: 100vh;
+	}
+	.hero-text picture img {
+		padding:40px;
+	}
+	#hometext {
+		width: 90%;
+	}
+	.left-image, .right-image {
+		width: 100%;
+		margin: 0;
+	}
+	.parallax {
+		width: 100%;
+	}
+	img {
+		border-radius: 0;
+	}
+	.even-div, .odd-div {
+		padding: 0;
+	}
+	#tagline {
+		padding-top: 80px;
+	}
+	.bubble {
+		margin: 50px auto;
+	}
+	.bubble blockquote {
+		font-size: 1.05em;
+		width: 90%;
+		margin: 0 auto;
+		height: 360px;
+	}
+	.bubble cite {
+		font-size: 1.1em;
+		margin: 25px 0 40px 40px;
+	}
+	.bubble div {
+		margin: 0 0 0 100px;
+	}
+	.carousel-indicators {
+		bottom: 65px;
+	}
+	.pagetext {
+		margin: 80px;
+	}
+}
+
+@media  (max-width: 450px){
+	.bubble blockquote {
+		font-size: .9em;
+		padding: 40px 30px;
+		height: 350px;
+	}
+	.bubble cite {
+		font-size: .95em;
+		margin: 0;
+	}
 }
