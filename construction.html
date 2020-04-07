@@ -21,7 +21,16 @@
                		<button type="button" class="toggle-btn" onclick="login()">Sign Up</button>
                 	<button type="button" class="toggle-btn" onclick="signup()">Log In</button>
             		</div>
-	-->
+	<button onclick="goBack()">Go Back</button>
+
+<p>Notice that clicking on the Back button here will not result in any action, because there is no previous URL in the history list.</p>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+-->
         <!--
 		<form id="signup" class="input-group">
 			<input type="text" class="input-field" placeholder="User ID" required>
