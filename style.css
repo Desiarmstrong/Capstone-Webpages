@@ -120,7 +120,14 @@ section.pricing {
 .pricing hr {
   margin: 1.5rem 0;
 }
-
+.pricing .card-body {
+  	background-color: #FFF;
+	padding-top: 20px;
+	margin: 0.5rem 0;
+	font-size: 0.9rem;
+	letter-spacing: .1rem;
+	font-weight: bold;
+}
 .pricing .card-title {
   margin: 0.5rem 0;
   font-size: 0.9rem;
