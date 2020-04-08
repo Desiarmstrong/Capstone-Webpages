@@ -289,6 +289,26 @@ ul {
 	padding: 0;
 }
 
+/*slide in on scroll*/
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 1s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.8s;
+}
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
+/*responsive styles*/
+
 @media (min-width: 1800px) {
 	.pagetext {
 		margin: 0 350px;
