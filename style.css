@@ -4,7 +4,7 @@
 	font-family: 'Montserrat',sans-serif;
 }
 .hero{
-	height: 200%;
+	height: 125%;
 	width: 100%;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/Desiarmstrong/Capstone-Webpages/blob/master/login-background.png?raw=true");
 	background-position: center;
