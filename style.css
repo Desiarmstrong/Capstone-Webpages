@@ -23,13 +23,13 @@
 	overflow: hidden;
 }
 .form-box-2{
-	width: 50%;
-	height: 50%;
 	position: relative;
-	margin: 2% auto;
 	background: white;
+	margin: 8% auto;
 	padding: 20px;
-	border-radius: 20px;
+	width: 400px;	
+	height: 550px;
+	border-radius: 5px;
 	overflow: hidden;
 }
 .initials{
