@@ -32,6 +32,16 @@
 	border-radius: 5px;
 	overflow: hidden;
 }
+.box{
+	position: relative;
+	background: white;
+	margin: 10% auto;
+	padding: 20px;
+	width: 400px;	
+	height: 550px;
+	border-radius: 5px;
+	overflow: hidden;
+}
 .initials{
 	width: 150px;
 	margin: 30px auto 25px;
