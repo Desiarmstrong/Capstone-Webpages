@@ -26,10 +26,10 @@
 	width: 50%;
 	height: 50%;
 	position: relative;
-	margin: 8% auto;
+	margin: 2% auto;
 	background: white;
-	padding: 5px;
-	border-radius: 5px;
+	padding: 20px;
+	border-radius: 20px;
 	overflow: hidden;
 }
 .initials{
