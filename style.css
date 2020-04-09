@@ -111,7 +111,10 @@ span{
 #login{
 	left: 450px;
 }
-.righteous { font-family: Righteous;}
+.righteous { 
+	font-family: Righteous;
+	text-align: center;
+}
 .constructionp { 
 	text-align: center;
 }
