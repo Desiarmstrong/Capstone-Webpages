@@ -14,7 +14,7 @@
 }
 .form-box{
 	width: 350px;
-	height: 500px;
+	height: 400px;
 	position: relative;
 	margin: 8% auto;
 	background: white;
@@ -35,7 +35,7 @@
 .form-box-3{
 	position: relative;
 	background: white;
-	margin: 10% auto;
+	margin: 8% auto;
 	padding: 20px;
 	width: 400px;	
 	height: 550px;
