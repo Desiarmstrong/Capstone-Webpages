@@ -289,7 +289,10 @@ ul {
 	padding: 0;
 }
 
-.connect-image {width: 100%;}
+.connect-image {
+	width: 100%;
+	margin-bottom: 50px;
+}
 
 /*slide in on scroll*/
 
@@ -325,13 +328,13 @@ ul {
 		margin-right: 100px;
 		padding-left: 150px;
 	}
-}
-
-@media (max-width: 1199px){
-	.connect-image {
-		margin-bottom: 30px;
+	.field {
+		width: 600px;
 	}
-	
+	#connect {
+		margin-left: 100px;
+	}
+
 }
 
 @media (min-width: 1200px){
