@@ -289,6 +289,8 @@ ul {
 	padding: 0;
 }
 
+.connect-image {width: 100%;}
+
 /*slide in on scroll*/
 
 .come-in {
@@ -323,6 +325,13 @@ ul {
 		margin-right: 100px;
 		padding-left: 150px;
 	}
+}
+
+@media (max-width: 1199px){
+	.connect-image {
+		margin-bottom: 30px;
+	}
+	
 }
 
 @media (min-width: 1200px){
@@ -360,6 +369,10 @@ ul {
 	.left-image, .right-image {
 		height: 500px;
 	}
+	.connect-image {
+		padding: 0 50px;
+	}
+
 }
 
 @media only screen and (max-width: 766px){
@@ -382,6 +395,11 @@ ul {
 		width: 100%;
 		margin: 0;
 	}
+	.connect-image {
+		width: 100%;
+		margin: 0 0 30px;
+	}
+	
 	.parallax {
 		width: 100%;
 	}
@@ -415,6 +433,13 @@ ul {
 	}
 	.pagetext {
 		margin: 80px;
+	}
+	label {
+		text-align: left;
+		float: left;
+	}
+	.field {
+		width: 100%
 	}
 }
 
