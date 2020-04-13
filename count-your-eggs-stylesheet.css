@@ -128,22 +128,14 @@ button.navbar-toggle:hover {
 
 /*styles for grey-and-white sections of page*/
 
-.odd-div {
+.graywhite:nth-of-type(even) {
 	padding: 50px 0;
 	background: #FCFCFC;
 }
 
-.odd-div:first-of-type {
-	padding-top: 100px;
-}
-
-.even-div {
+.graywhite:nth-of-type(odd) {
 	padding: 50px 0;
 	background: #CFD0D1;
-}
-
-.even-div:last-of-type {
-	padding-bottom: 100px;
 }
 
 img {
@@ -222,6 +214,30 @@ blockquote:after {
 	margin: 0 100px;
 }
 
+/*about page cards*/
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 5px;
+  margin: 10px 5px;
+  background: #FCFCFC;
+	border-radius: 5px;
+}
+
+.card .container {
+	width: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+/*footer*/
 
 footer {
 	background-color: #012001;
