@@ -218,6 +218,51 @@ blockquote:after {
 	margin: 0 100px;
 }
 
+/*FAQ page*/
+
+.box{
+	width: 550px;
+	/*height: 450px;*/
+	margin: 80px auto;
+	background: lightgray;
+	border-radius: 7px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.box .heading{	
+	background: #669900;
+	border-radius: 7px 7px 0px 0px;
+	padding: 10px;
+	font-size: 25px;
+	color: #F2FAE1;
+}
+
+.faqs{
+	padding: 10px 30px 30px;
+}
+
+::-webkit-details-marker{
+	float: right;
+	margin-top: 3px;
+}
+
+details{
+	background: #979797;
+	padding: 10px 20px;
+	border-radius: 7px;
+	margin-top: 20px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+details summary{
+	outline: none;
+}
+details p{
+	padding: 10px;
+}
+
 /*about page cards*/
 
 .card {
