@@ -388,6 +388,12 @@ ul {
 	
 }
 
+@media (max-width: 991px){
+	.abouttext {
+		margin: 10px;
+	}
+}
+
 @media (min-width: 767px) {
 	.left-image, .right-image {
 		height: 500px;
